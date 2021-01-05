@@ -19,3 +19,8 @@
 #signin-form #api .entry-item {
   text-align: left;
 }
+
+#signin-form #api .password-label {
+  height: auto;
+  position: static;
+}
