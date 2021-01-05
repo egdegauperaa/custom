@@ -2,6 +2,11 @@
   font-size: 1.6rem;
 }
 
-#signin-form input#password {
+/*Password*/
+#signin-form #api input#password {
+  font-size: 1.6rem;
+}
+
+#signin-form #api a#forgotPassword {
   font-size: 1.6rem;
 }
