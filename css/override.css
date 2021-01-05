@@ -24,3 +24,7 @@
   height: auto;
   position: static;
 }
+
+#signin-form #api .entry-item label {
+  display: block;
+}
