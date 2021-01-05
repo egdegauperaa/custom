@@ -1,3 +1,7 @@
 #signin-form input {
   font-size: 1.6rem;
 }
+
+#signin-form input#password {
+  font-size: 1.6rem;
+}
