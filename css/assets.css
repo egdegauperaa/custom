@@ -1,25 +1,25 @@
 body {
-    background-image: url(backgrounds/1-1.png);
+    background-image: url(../backgrounds/1-1.png);
 }
 @font-face {
     font-family: 'SegoeUI';
-    src: url(./fonts/segoeui.WOFF);
+    src: url(../fonts/segoeui.WOFF);
     font-weight: normal;
 }
 @font-face {
     font-family: 'SegoeUI';
-    src: url(./fonts/segoeui_bold.WOFF);
+    src: url(../fonts/segoeui_bold.WOFF);
     font-weight: bold;
 }
 
 .buttons #cancel:before {
-    content: url(./images/left-arrow.svg);
+    content: url(../images/left-arrow.svg);
 }
 
 
 #SignInWithLogonNameExchange, #SignUpWithLogonEmailExchange, #SignUpWithLogonNameExchange {
-    background-image: url(./idp_logos/colored/local.svg);
+    background-image: url(../idp_logos/colored/local.svg);
 }
 #SignInWithLogonNameExchange:hover, #SignUpWithLogonEmailExchange:hover, #SignUpWithLogonNameExchange:hover {
-    background-image: url(./idp_logos/white/local.svg);
+    background-image: url(../idp_logos/white/local.svg);
 }
