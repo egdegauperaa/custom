@@ -1,12 +1,16 @@
 #signin-form input {
-  font-size: 1.6rem;
+  font-size: 16px;
+  padding: 13px 10px;
+  border-radius: 4px;
+  border-width: 2px;
+  border-color: #a1a1a4;
 }
 
 /*Password*/
 #signin-form #api input#password {
-  font-size: 1.6rem;
+  font-size: 16px;
 }
 
 #signin-form #api a#forgotPassword {
-  font-size: 1.6rem;
+  font-size: 16px;
 }
