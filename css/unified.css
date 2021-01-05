@@ -5,6 +5,9 @@
     margin-bottom: auto;
     height: 100%;
     background-color: #f6f6f6;
+    border: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }
 .unified_container .row .panel-default .panel-body {
   max-width: 380px;
