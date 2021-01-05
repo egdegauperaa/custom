@@ -22,6 +22,51 @@
                     <div class="panel-body">
                         <h1>Please sign in<h1>
                         <div id="api">
+                            <form id="localAccountForm" action="JavaScript:void(0);" class="localAccount" aria-label="Sign in with your email address" style="user-select: auto;">
+      <div class="intro" style="user-select: auto;">
+        <h2 style="user-select: auto;">
+          Sign in with your email address
+        </h2>
+      </div>
+      <div class="error pageLevel" aria-hidden="true" role="alert" style="display: none; user-select: auto;">
+        <p style="user-select: auto;"></p>
+      </div>
+      <div class="entry" style="user-select: auto;">
+        <div class="entry-item" style="user-select: auto;">
+          <label for="email" style="user-select: auto;">
+            Email Address
+          </label>
+          <div class="error itemLevel" aria-hidden="true" role="alert" style="display: none; user-select: auto;">
+            <p style="user-select: auto;"></p>
+          </div>
+          <input type="email" id="email" name="Email Address" pattern="^[a-zA-Z0-9!#$%&amp;'+^_`{}~-]+(?:\.[a-zA-Z0-9!#$%&amp;'+^_`{}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$" placeholder="Email Address" value="" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=&quot;); cursor: auto; user-select: auto;">
+        </div>
+        <div class="entry-item" style="user-select: auto;">
+          <div class="password-label" style="user-select: auto;">
+            <label for="password" style="user-select: auto;">Password</label>
+            <a id="forgotPassword" href="/axessb2c.onmicrosoft.com/B2C_1_login001/api/CombinedSigninAndSignup/forgotPassword?csrf_token=UHoxSk9nNnFWaUhMZXRrZ05PNE9lYWd1TjM2RVEwMkhiRUZhVEQzMFBHeklvMndzR1FWUjZNZ1hjSE1CMURIMjJMRHBIVTFlVjFxcHQxYlhCbmhjdGc9PTsyMDIxLTAxLTA1VDEzOjMxOjEzLjA4NzU0MjZaO3ZxMGNsL0wvOGcrMUdEbGVoWWtuaUE9PTt7Ik9yY2hlc3RyYXRpb25TdGVwIjoxfQ==&amp;tx=StateProperties=eyJUSUQiOiI5YmYyZmIzNy05NWI0LTQwNTItYmFhOC04YTYxN2MyN2MxNzAifQ&amp;p=B2C_1_login001" style="user-select: auto;">Forgot your password?</a>
+          </div>
+          <div class="error itemLevel" aria-hidden="true" style="display: none; user-select: auto;">
+            <p role="alert" style="user-select: auto;"></p>
+          </div>
+          <input type="password" id="password" name="Password" placeholder="Password" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=&quot;); cursor: auto; user-select: auto;">
+        </div>
+        <div class="working" style="user-select: auto;"></div>
+
+
+        <div class="buttons" style="user-select: auto;">
+          <button id="next" type="submit" form="localAccountForm" style="user-select: auto;">Sign in</button>
+        </div>
+      </div>
+            <div class="divider" style="user-select: auto;">
+              <h2 style="user-select: auto;">OR</h2>
+            </div>
+            <div class="create" style="user-select: auto;">
+              <p style="user-select: auto;">
+                Don't have an account?<a id="createAccount" href="/axessb2c.onmicrosoft.com/B2C_1_login001/api/CombinedSigninAndSignup/unified?local=signup&amp;csrf_token=UHoxSk9nNnFWaUhMZXRrZ05PNE9lYWd1TjM2RVEwMkhiRUZhVEQzMFBHeklvMndzR1FWUjZNZ1hjSE1CMURIMjJMRHBIVTFlVjFxcHQxYlhCbmhjdGc9PTsyMDIxLTAxLTA1VDEzOjMxOjEzLjA4NzU0MjZaO3ZxMGNsL0wvOGcrMUdEbGVoWWtuaUE9PTt7Ik9yY2hlc3RyYXRpb25TdGVwIjoxfQ==&amp;tx=StateProperties=eyJUSUQiOiI5YmYyZmIzNy05NWI0LTQwNTItYmFhOC04YTYxN2MyN2MxNzAifQ&amp;p=B2C_1_login001" style="user-select: auto;">Sign up now</a>
+              </p>
+            </div>
+    </form>
                         </div>
                     </div>
                 </div>
