@@ -1,3 +1,8 @@
+a {
+  color: #00818A;
+  text-decoration: underline;
+}
+
 #signin-form input {
   font-size: 16px;
   padding: 13px 10px;
