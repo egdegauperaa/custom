@@ -66,6 +66,10 @@ a {
   margin-top: 4rem;
 }
 
+#signin-form #api .create p {
+  font-size: 16px;
+}
+
 ::-webkit-input-placeholder { /* Edge */
   color: #fff;
 }
