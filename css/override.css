@@ -5,6 +5,8 @@ a {
 
 #signin-form #api button {
   background-color: #00818A;
+  font-size: 16px;
+  padding: 9px 20px;
 }
 
 #signin-form input {
