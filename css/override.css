@@ -13,7 +13,7 @@
 
 #signin-form #api a#forgotPassword {
   font-size: 16px;
-  bottom: 85px;
+  bottom: 152px;
 }
 
 #signin-form #api .entry-item {
@@ -23,11 +23,15 @@
 #signin-form #api .password-label {
   height: auto;
   position: static;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 #signin-form #api .entry-item label {
   display: block;
   color: #707070;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 #signin-form #api h2 {
