@@ -30,6 +30,7 @@ a {
 
 #signin-form #api .entry-item {
   text-align: left;
+  padding-bottom: 15px;
 }
 
 #signin-form #api .password-label {
