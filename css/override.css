@@ -81,3 +81,8 @@ a {
 ::placeholder {
   color: #fff;
 }
+
+/*Forgot password*/
+#signin-form .buttons button {
+  color: #fff;
+}
