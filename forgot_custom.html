@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Sign in</title>  
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+      <link href="https://aas202.azurewebsites.net/azure-theme/css/assets.css" rel="stylesheet" type="text/css" />
+      <link href="https://aas202.azurewebsites.net/azure-theme/css/common.css" rel="stylesheet" type="text/css" />
+      <link href="https://aas202.azurewebsites.net/azure-theme/css/unified.css" rel="stylesheet" type="text/css" />
+      <link href="https://aas202.azurewebsites.net/azure-theme/css/override.css" rel="stylesheet" type="text/css" />
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">    
+  </head>
+  <body style="position: relative">
+      <img src="https://aas202.azurewebsites.net/azure-theme/images/bridge_small.png" style="position: absolute; top: 1.5rem; left: 1rem; width: 90px" />
+      <div class="container unified_container ">
+          <div class="row">
+              <div class="col-lg-6">
+                  <div class="panel panel-default">
+                      <div class="panel-body" id="signin-form">
+                          <div id="api" data-name="SelfAsserted" style="user-select: auto;">
+                              <div class="intro" style="user-select: auto;">
+                                <p style="user-select: auto;">Please provide the following details.</p>
+                              </div>
+                              <form id="attributeVerification" action="JavaScript:void(0);" style="user-select: auto;" _lpchecked="1">
+                                <div id="passwordEntryMismatch" class="error pageLevel" style="display: none; user-select: auto;" aria-hidden="true">The password entry fields do not match. Please enter the same password in both fields and try again.</div>
+                                <div id="requiredFieldMissing" class="error pageLevel" style="display: none; user-select: auto;" aria-hidden="true">A required field is missing. Please fill out all required fields and try again.</div>
+                                <div id="fieldIncorrect" class="error pageLevel" style="display: none; user-select: auto;" aria-hidden="true">One or more fields are filled out incorrectly. Please check your entries and try again.</div>
+                                <div id="claimVerificationServerError" class="error pageLevel" style="display: none; user-select: auto;" aria-hidden="true"></div>
+                                <div id="attributeList" class="attr" style="user-select: auto;">
+                                  <ul style="user-select: auto;">
+                                    <li class="VerificationControl" style="user-select: auto;"><div class="attrEntry" style="user-select: auto;"><label id="emailVerificationControl_label" for="emailVerificationControl" style="user-select: auto;"></label><div class="error itemLevel" role="alert" style="user-select: auto;"></div><div class="verificationControlContent" id="emailVerificationControl" style="user-select: auto;"><div class="verificationInfoText" style="user-select: auto;"><div id="emailVerificationControl_info_message" aria-hidden="true" role="alert" aria-label="Verification is necessary. Please click Send button." style="display: none; user-select: auto;">Verification is necessary. Please click Send button.</div></div><div class="verificationSuccessText" style="user-select: auto;"><div id="emailVerificationControl_success_message" aria-hidden="true" role="alert" aria-label="" style="display: none; user-select: auto;"></div></div><div class="verificationErrorText error" style="user-select: auto;"><div id="emailVerificationControl_error_message" aria-hidden="true" role="alert" aria-label="" style="display: none; user-select: auto;"></div></div><ul style="user-select: auto;"><li class="EmailBox email" aria-hidden="false" style="display: inline; user-select: auto;"><div class="attrEntry" style="user-select: auto;"><label id="email_label" for="email" style="user-select: auto;">Email Address</label><div class="error itemLevel" role="alert" style="user-select: auto;"></div><input id="email" class="textInput" type="email" placeholder="Email Address" aria-label="Email Address" pattern="^[a-zA-Z0-9!#$%&amp;'+^_`{}~-]+(?:\.[a-zA-Z0-9!#$%&amp;'+^_`{}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$" title="Email address that can be used to contact you." aria-required="true" style="user-select: auto;"><a class="helpLink tiny" href="javascript:void(0)" data-help="Email address that can be used to contact you." style="user-select: auto;">What is this?</a></div></li><li class="TextBox VerificationCode" aria-hidden="true" style="display: none; user-select: auto;"><div class="attrEntry" style="user-select: auto;"><label id="emailVerificationCode_label" for="emailVerificationCode" style="user-select: auto;">Verification Code</label><div class="error itemLevel" role="alert" style="user-select: auto;"></div><input id="emailVerificationCode" class="textInput" type="text" placeholder="Verification Code" aria-label="Verification Code" title="Enter your verification code" aria-required="true" disabled="" style="user-select: auto;"><a class="helpLink tiny" href="javascript:void(0)" data-help="Enter your verification code" style="user-select: auto;">What is this?</a></div></li></ul><div class="working" style="display: none; user-select: auto;" aria-hidden="true"></div><div class="buttons" style="user-select: auto;"><button class="sendCode" id="emailVerificationControl_but_send_code" type="button" aria-label="Send verification code" aria-hidden="false" style="display: inline; user-select: auto;">Send verification code</button><button class="verifyCode" id="emailVerificationControl_but_verify_code" type="button" aria-label="Verify code" aria-hidden="true" style="display: none; user-select: auto;">Verify code</button><button class="sendNewCode" id="emailVerificationControl_but_send_new_code" type="button" aria-label="Send new code" aria-hidden="true" style="display: none; user-select: auto;">Send new code</button><button class="changeClaims" id="emailVerificationControl_but_change_claims" type="button" aria-label="Change" aria-hidden="true" style="display: none; user-select: auto;">Change</button></div></div><a class="helpLink tiny" href="javascript:void(0)" style="user-select: auto;">What is this?</a></div></li>
+                                  </ul>
+                                </div>
+                                <div class="buttons" style="user-select: auto;">
+                                  <button id="continue" type="submit" form="attributeVerification" disabled="" aria-label="Continue" style="user-select: auto;">Continue</button><button id="cancel" aria-label="Cancel" formnovalidate="" style="user-select: auto;">Cancel</button>
+                                </div>
+
+                                <div class="verifying-modal" style="user-select: auto;">
+                                  <div id="verifying_blurb" style="user-select: auto;"></div>
+                                </div>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+</body>
+</html>
